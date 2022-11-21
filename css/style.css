@@ -3768,7 +3768,8 @@ button.swiper-pagination-bullet {
   .certificate-block__container {
     display: -ms-grid;
     display: grid;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
     row-gap: 1.25rem;
   }
 
